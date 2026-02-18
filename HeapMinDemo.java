@@ -64,20 +64,21 @@ public class HeapMinDemo{
     public static void main(String[] args){
         Heap h = new Heap(6);
 
-        h.insert(50);
-        h.display();
-        h.insert(45);
-        h.display();
-        h.insert(90);
+        h.insert(40);
         h.display();
         h.insert(35);
         h.display();
-        h.insert(80);
+        h.insert(93);
         h.display();
-        h.insert(40);
+        h.insert(55);
+        h.display();
+        h.insert(84);
+        h.display();
+        h.insert(43);
         h.display();
 
         System.out.println("deleted min : " + h.delMin());
         h.display();
     }
+
 }
