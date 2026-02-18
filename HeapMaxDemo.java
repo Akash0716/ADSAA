@@ -68,20 +68,21 @@ public class HeapMaxDemo{
         Scanner sc = new Scanner(System.in);
         Heap h = new Heap(6);
         
-        h.insert(40);
+        h.insert(30);
         h.display();
-        h.insert(80);
+        h.insert(60);
         h.display();
         h.insert(35);
         h.display();
-        h.insert(90);
+        h.insert(70);
         h.display();
-        h.insert(45);
+        h.insert(25);
         h.display();
-        h.insert(50);
+        h.insert(80);
         h.display();
         System.out.println("Deleted Max : " + h.delMax());
         h.display();
 
     }
+
 }
